@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jawad.mashmoment.Main2Activity">
+
+    <ImageView
+        android:id="@+id/imgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        />
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/shakib"
+       android:scaleType="matrix"
+       android:src="@drawable/mash01"
+       />
+    <RelativeLayout
+        android:id="@+id/overLay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Effects"
+            android:textAllCaps="true"
+            android:textAlignment="viewStart"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            />
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="takeScreenshot"
+            android:background="@null"
+            android:src="@drawable/save"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll2"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/m12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="grayscale"
+                    android:src="@drawable/e1" />
+
+                <ImageButton
+                    android:id="@+id/m22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="sepia"
+                    android:src="@drawable/e2" />
+               <!-- <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/m32"
+                    android:onClick=""
+                    android:src="@drawable/mash3"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/m42"
+                    android:onClick=""
+                    android:src="@drawable/s"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick=""
+                    android:id="@+id/m52"
+                    android:src="@drawable/x"
+                    /> -->
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+    </RelativeLayout>
+
+    <!--ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takeScreenshot"
+        android:background="@null"
+        android:src="@drawable/save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" /-->
+</RelativeLayout>
