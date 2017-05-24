@@ -14,7 +14,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tap Anywhere and look for your image"
+        android:text="Tap anywhere on the screen to continue"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/white"
         />

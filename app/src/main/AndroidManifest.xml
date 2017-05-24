@@ -32,12 +32,14 @@
         </activity>
         <activity
             android:name=".AndroidCamera2API"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" ></activity>
         <activity
             android:name=".AndroidCamera2APIfront"
-            android:screenOrientation="portrait" />
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".Main2Activityfront"></activity>
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Main2Activityfront"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

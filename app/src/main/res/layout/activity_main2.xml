@@ -63,14 +63,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="grayscale"
-                    android:src="@drawable/e1" />
+                    android:src="@drawable/e2" />
 
                 <ImageButton
                     android:id="@+id/m22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="sepia"
-                    android:src="@drawable/e2" />
+                    android:src="@drawable/e1" />
                <!-- <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
